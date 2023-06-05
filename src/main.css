@@ -42,10 +42,11 @@
 
 
 /* Add Spider-Man font */
-@import url('https://fonts.googleapis.com/css?family=Anton&display=swap');
-body, .app {
-  font-family: 'Anton', sans-serif;
+@font-face {
+  font-family: 'YourFontName';
+  src: url('CombackHomeRegular-jEMd9s.ttf') format('truetype');
 }
+
 
 /* Animated Spider Logo */
 @keyframes color-change {
