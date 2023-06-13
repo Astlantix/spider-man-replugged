@@ -1,10 +1,10 @@
 {
-  "id": "dev.replugged.SpiderMan",
+  "id": "dev.VY.SpiderMan",
   "name": "Spider-Man Theme",
   "description": "Spider-Man Theme made by VY",
   "author": {
     "name": "VY",
-    "discordID": "",
+    "discordID": "892601297402998804",
     "github": "example-org"
   },
   "version": "1.0.0",
@@ -14,5 +14,5 @@
   },
   "license": "MIT",
   "type": "replugged-theme",
-  "main": "src/main.css"
+  "main": "src/index.css"
 }
