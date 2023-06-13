@@ -5,12 +5,12 @@
   "author": {
     "name": "VY",
     "discordID": "892601297402998804",
-    "github": "example-org"
+    "github": "Astlantix"
   },
   "version": "1.0.0",
   "updater": {
     "type": "github",
-    "id": "Astlantix/Spider-Man"
+    "id": "Astlantix/spider-man-replugged"
   },
   "license": "MIT",
   "type": "replugged-theme",
