@@ -14,5 +14,5 @@
   },
   "license": "MIT",
   "type": "replugged-theme",
-  "main": "src/index.css"
+  "main": "src/main.css"
 }
