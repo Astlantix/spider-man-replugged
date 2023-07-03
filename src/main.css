@@ -1,68 +1,45 @@
+/* Have this while the theme is still private, Dark mode may look bad. */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+:root, body {
+  --font-primary: "Roboto";
+  --font-display: "Roboto";
+  --font-headline: "Roboto";
 
-/* Spider-Man Replugged theme with animated spider logo */
-/* Change the background color */
-.app {
-    background-color: #e8e8e8;
+  
+  background: #000000;
+}
+::-webkit-scrollbar, .arrow-2HswgU.icon-3zI3d2, .wordmarkWindows-2dq6rw, .closeButton-PCZcma svg, .icon-2W8DHg, .content-1gYQeQ:has(.children-1MGS9G) .children-1MGS9G, .field-21XZwa.fieldSpacerBottom-3xUCTB, .userInfo-regn9W .button-ejjZWC.lookFilled-1H2Jvj.colorBrand-2M3O3N.sizeSmall-3R2P2p.grow-2T4nbg, .usernameRow-1x50RR:has(.h5-2feg8J.eyebrow-2wJAoF.fieldTitle-2g5r_V) h3, .bannerSVGWrapper-2CLfzN mask, .overflowMenuButton-1I3Jz1 {
+  display: none;
+}
+
+.theme-dark {
+    --background-primary: transparent !important;
+    --background-secondary: linear-gradient(#9a0808a1, #000000, #1e43e9) !important;
+    --background-secondary-alt: #000000 !important;
+    --background-tertiary: transparent !important;
+    --background-accent: linear-gradient(#9a0808a1, #1e43e9) !important;
+    --background-floating: #000000 !important;
+    --background-nested-floating: #FF0000 !important; /* Unknown Location */
+}
+
+.theme-dark body {
+  background: unset !important;
+  background-image: url(spoder.jpg) !important;
+}
+
+.theme-dark #app-mount {
+    backdrop-filter: blur(0px) brightness(0.5);
   }
-  
-  /* Change the text color */
-  .app .chat .messages .markup {
-    color: #000000;
-  }
-  
-  /* Change the chat background */
-  .app .chat .messages-wrapper {
-    background-color: #ffffff;
-  }
-  
-  /* Add a Spider-Man background image to the chat */
-  .app .chat .messages-wrapper::before {
-    content: "";
-    background-image: url('https://4.bp.blogspot.com/-pCEbPfXnOrg/WdB9eAdIjnI/AAAAAAAAH7E/_sI6iCZQifk9-7Zq6ydE6t7tyDH4u2degCLcBGAs/s1600/Easy-superhero-Spiderman-pumkin-carving-pattern-templates-download-6.jpg');
-    background-size: cover;
-    background-position: center;
-    opacity: 0.2;
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    z-index: -1;
-  }
-  
-  /* Change the chat input background */
-  .app .chat .channelTextArea-2ACPyk {
-    background-color: #f5f5f5;
-  }
-  
-  /* Change the chat input text color */
-  .app .chat .channelTextArea-2ACPyk .textArea-12jD-V {
-    color: #000000;
-  }
-  
-  
-  
-  /* Add Spider-Man font */
-  @font-face {
-    font-family: 'YourFontName';
-    src: url('CombackHomeRegular-jEMd9.ttF') format('truetype');
-  }
-  
-  
-  /* Animated Spider Logo */
-  @keyframes color-change {
-    0% {
-      fill: red;
-    }
-    50% {
-      fill: blue;
-    }
-    100% {
-      fill: red;
-    }
-  }
-  
-  /* Apply animation to Discord logo */
-  .app .appHeader-3RzB3C .logo-3YvIlz svg {
-    animation: color-change 3s infinite;
-  }
+
+.theme-light {
+    --background-primary: #000000;
+    --background-secondary: linear-gradient(#8A2BE2, #000000);
+    --background-secondary-alt: #000000;
+    --background-tertiary: #000000;
+    --background-accent: #8A2BE2;
+    --background-floating: #666966;
+    --background-nested-floating: #FF0000; /* Unknown Location */
+}
+
+
+
