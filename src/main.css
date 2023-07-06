@@ -33,11 +33,11 @@
   }
 
 .theme-light {
-    --background-primary: #000000;
-    --background-secondary: linear-gradient(#8A2BE2, #000000);
-    --background-secondary-alt: #000000;
+    --background-primary: transparent !important;
+    --background-secondary: linear-gradient(#8b0707d5, #000000);
+    --background-secondary-alt: transparent !important;
     --background-tertiary: #000000;
-    --background-accent: #8A2BE2;
+    --background-accent: #000000;
     --background-floating: #666966;
     --background-nested-floating: #FF0000; /* Unknown Location */
 }
