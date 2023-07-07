@@ -4,7 +4,6 @@
   --font-primary: "Roboto";
   --font-display: "Roboto";
   --font-headline: "Roboto";
-
   
   background: #000000;
 }
@@ -26,11 +25,12 @@
   background: unset !important;
   background-image: url(spoder.jpg) !important;
   background-position: center !important;
+  background-repeat: no-repeat !important;
 }
 
 .theme-dark #app-mount {
     backdrop-filter: blur(0px) brightness(0.5);
-  }
+}
 
 .theme-light {
     --background-primary: transparent !important;
