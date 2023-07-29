@@ -25,7 +25,7 @@
   background: unset !important;
   background-image: url(spoder.jpeg) !important;
   background-position: center !important;
-  background-size: auto !important;
+  background-size: cover !important;
   background-repeat: no-repeat !important;
 }
 
