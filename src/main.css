@@ -13,7 +13,7 @@
 
 .theme-dark {
     --background-primary: transparent !important;
-    --background-secondary-alt: linear-gradient(#9a0808a1, #000000, #1e43e9) !important;
+    --background-secondary-alt: linear-gradient(#9a0808a1, #000000, #1e43e9) animation: yes 11s ease infinite !important;
     --background-secondary: transparent !important;
     --background-tertiary: transparent !important;
     --background-accent: linear-gradient(#9a0808a1, #1e43e9) !important;
@@ -59,4 +59,12 @@
 [style*='background-image: url("/assets/8c998f8fb62016fcfb4901e424ff378b.svg");'],
 [style*='background-image: url("/assets/645df33d735507f39c78ce0cac7437f0.svg");'] {
   background-image: url(spooder.svg) !important;
+}
+
+
+
+@keyframes yes {
+  0%{background-position:50% 0%}
+  50%{background-position:50% 100%}
+  100%{background-position:50% 0%}
 }
