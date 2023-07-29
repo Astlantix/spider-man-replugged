@@ -34,13 +34,25 @@
 }
 
 .theme-light {
-    --background-primary: transparent !important;
-    --background-secondary: linear-gradient(#8b0707d5, #000000);
-    --background-secondary-alt: transparent !important;
-    --background-tertiary: #000000;
-    --background-accent: #000000;
-    --background-floating: #666966;
-    --background-nested-floating: #FF0000; /* Unknown Location */
+  --background-primary: transparent !important;
+  --background-secondary-alt: linear-gradient(#9a0808a1, #000000) !important;
+  --background-secondary: transparent !important;
+  --background-tertiary: transparent !important;
+  --background-accent: linear-gradient(#9a0808a1, #000000) !important;
+  --background-floating: #000000 !important;
+  --background-nested-floating: #FF0000 !important; /* Unknown Location */
+}
+
+.theme-light body {
+  background: unset !important;
+  background-image: url(venomspoder.jpg) !important;
+  background-position: center !important;
+  background-size: cover !important;
+  background-repeat: no-repeat !important;
+}
+
+.theme-light #app-mount {
+    backdrop-filter: blur(2px) brightness(0.5);
 }
 
 
