@@ -13,8 +13,8 @@
 
 .theme-dark {
     --background-primary: transparent !important;
-    --background-secondary-alt: linear-gradient(#9a0808a1, #000000, #1e43e9) 
-    --background-secondary-altanimation: yes 11s ease infinite !important;
+    --background-secondary-alt: linear-gradient(#9a0808a1, #000000, #1e43e9) !important;
+    --background-secondary-alt: animation yes 11s ease infinite !important;
     --background-secondary: transparent !important;
     --background-tertiary: transparent !important;
     --background-accent: linear-gradient(#9a0808a1, #1e43e9) !important;
