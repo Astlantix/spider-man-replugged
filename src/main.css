@@ -43,11 +43,7 @@
 }
 
 
-.selected-1Drb7Z {
-    background-image: url(spoder.jpg) !important;
-    background-size : cover !important;
-  }
-  iv.wrapper-3kah-n {
-    background-image: url(spoder.jpg) !important;
-    background-size : cover !important;
-  }
+[style*='background-image: url("/assets/8c998f8fb62016fcfb4901e424ff378b.svg");'],
+[style*='background-image: url("/assets/645df33d735507f39c78ce0cac7437f0.svg");'] {
+  background-image: url(spooder.svg) !important;
+}
