@@ -52,7 +52,7 @@
 }
 
 .theme-light #app-mount {
-    backdrop-filter: blur(2px) brightness(0.5);
+    backdrop-filter: blur(0px) brightness(0.5);
 }
 
 
