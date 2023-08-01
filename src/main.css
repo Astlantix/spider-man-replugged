@@ -36,24 +36,24 @@
 
 .theme-light {
   --background-primary: transparent !important;
-  --background-secondary-alt: linear-gradient(#9a0808a1, #000000) !important;
+  --background-secondary-alt: transparent !important;
   --background-secondary: transparent !important;
   --background-tertiary: transparent !important;
-  --background-accent: linear-gradient(#9a0808a1, #000000) !important;
-  --background-floating: #000000 !important;
-  --background-nested-floating: #FF0000 !important; /* Unknown Location */
+  --background-accent: transparent !important;
+  --background-floating: #560606 !important;
+  --background-nested-floating: #000000 !important; /* Unknown Location */
 }
 
 .theme-light body {
   background: unset !important;
-  background-image: url(venomspoder.jpg) !important;
+  background-image: url(venomspoder.gif) !important;
   background-position: center !important;
   background-size: cover !important;
   background-repeat: no-repeat !important;
 }
 
 .theme-light #app-mount {
-    backdrop-filter: blur(0px) brightness(0.5);
+    backdrop-filter: blur(2px) brightness(0.5);
 }
 
 
